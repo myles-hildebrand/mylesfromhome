@@ -1,12 +1,12 @@
 import Typography from 'typography';
 import fairyGatesTheme from 'typography-theme-fairy-gates';
 
-fairyGatesTheme.headerFontFamily = ['Lobster Two', 'Work Sans'];
+fairyGatesTheme.headerFontFamily = ['Marko One', 'Work Sans'];
 fairyGatesTheme.googleFonts = [
   ...fairyGatesTheme.googleFonts,
   {
-    name: 'Lobster Two',
-    styles: ['700'],
+    name: 'Marko One',
+    styles: ['400'],
   },
 ];
 fairyGatesTheme.overrideThemeStyles = () => {
