@@ -10,9 +10,9 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `~ Gnarfunkel ~`,
-    description: `Gnarfunkel band site`,
-    siteUrl: `https://gnarfunkel.com/`,
+    title: `Myles From Home`,
+    description: `Myles From Home site`,
+    siteUrl: `https://mylesfromhome.com/`,
   },
   plugins: [
     `gatsby-plugin-typescript`,
