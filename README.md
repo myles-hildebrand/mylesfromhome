@@ -1,6 +1,4 @@
-# gnarfunkelband.github.io
-
-Website for Gnarfunkel band
+# Myles from Home Website
 
 ## Develop
 
