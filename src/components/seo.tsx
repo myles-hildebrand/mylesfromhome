@@ -25,44 +25,45 @@ const SEO = ({ title }: Props) => {
       {/* <!-- Search Engine --> */}
       <meta
         property="description"
-        content="West coast rock and roll that's gnarly to a funky extreme."
+        content="Myles from Home is a singer-songwriter who sings, plays guitar and harmonica and enjoys spending time outdoors naked."
       />
-      <meta property="image" content="https://www.gnarfunkel.com/images/main-fb.jpg" />
+      <meta property="image" content="https://www.mylesfromhome.com/images/main-fb.jpg" />
 
       {/* <!-- Schema.org for Google --> */}
-      <meta itemProp="name" content="~Gnarfunkel~" />
+      <meta itemProp="name" content="Myles from Home" />
       <meta
         itemProp="description"
-        content="West coast rock and roll that's gnarly to a funky extreme."
+        content="Myles from Home is a singer-songwriter who sings, plays guitar and harmonica and enjoys spending time outdoors naked."
       />
-      <meta itemProp="image" content="https://www.gnarfunkel.com/images/main-fb.jpg" />
+      <meta itemProp="image" content="https://www.mylesfromhome.com/images/main-fb.jpg" />
 
       {/* <!-- Twitter --> */}
       <meta property="twitter:card" content="summary" />
-      <meta property="twitter:title" content="~Gnarfunkel~" />
+      <meta property="twitter:title" content="Myles from Home" />
       <meta
         property="twitter:description"
-        content="West coast rock and roll that's gnarly to a funky extreme."
+        content="Myles from Home is a singer-songwriter who sings, plays guitar and harmonica and enjoys spending time outdoors naked."
       />
-      <meta property="twitter:site" content="@gnarfunkelband" />
-      <meta property="twitter:image:src" content="https://www.gnarfunkel.com/images/main-fb.jpg" />
+      {/* Meta tag used to link to a twitter account*/}
+      {/*<meta property="twitter:site" content="@mylesfromhome" />*/}
+      <meta property="twitter:image:src" content="https://www.mylesfromhome.com/images/main-fb.jpg" />
 
       {/* <!-- Open Graph general (Facebook, Pinterest & Google+) --> */}
-      <meta property="og:title" content="~Gnarfunkel~" />
+      <meta property="og:title" content="Myles from Home" />
       <meta
         property="og:description"
-        content="West coast rock and roll that's gnarly to a funky extreme."
+        content="Myles from Home is a singer-songwriter who sings, plays guitar and harmonica and enjoys spending time outdoors naked."
       />
-      <meta property="og:image" content="https://www.gnarfunkel.com/images/main-fb.jpg" />
+      <meta property="og:image" content="https://www.mylesfromhome.com/images/main-fb.jpg" />
       <meta
         property="og:image:secure_url"
-        content="https://www.gnarfunkel.com/images/main-fb.jpg"
+        content="https://www.mylesfromhome.com/images/main-fb.jpg"
       />
       <meta property="og:image:type" content="image/jpeg" />
       <meta property="og:image:width" content="1080" />
       <meta property="og:image:height" content="820" />
-      <meta property="og:url" content="https://www.gnarfunkel.com/" />
-      <meta property="og:site_name" content="~Gnarfunkel~" />
+      <meta property="og:url" content="https://www.mylesfromhome.com/" />
+      <meta property="og:site_name" content="Myles from Home" />
       <meta property="og:type" content="website" />
 
       {/* Songkick Widget */}
