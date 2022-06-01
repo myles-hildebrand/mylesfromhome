@@ -95,13 +95,13 @@ const Index = ({ data }: Props) => {
             <MusicIframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/V8sGvsD5g-o"
+              src="https://www.youtube.com/embed/YdiPrEt4KyQ"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />
             <MusicIframe
-              src="https://open.spotify.com/embed/artist/2mwAEuKKSnlOQouag2TUe5"
+              src="https://open.spotify.com/embed/artist/4aHc82sUCkKkkn8dnaMktt?utm_source=generator"
               width="560"
               height="315"
               frameBorder="0"
@@ -128,7 +128,7 @@ const Index = ({ data }: Props) => {
           <InstagramFeed />
         </Section>
       </Content>
-      <Footer> Copyright © Gnarfunkel ~ Website Design by Sebastian Valdivia</Footer>
+      <Footer> Copyright © Myles from Home ~ Website Design by Sebastian Valdivia</Footer>
     </>
   );
 };
