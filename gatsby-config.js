@@ -10,8 +10,8 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Myles From Home`,
-    description: `Myles From Home site`,
+    title: `Myles from Home`,
+    description: `Myles from Home site`,
     siteUrl: `https://mylesfromhome.com/`,
   },
   plugins: [
