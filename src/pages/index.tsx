@@ -115,7 +115,7 @@ const Index = ({ data }: Props) => {
           <SongkickWidget>
             <a
               className="songkick-widget"
-              href="https://www.songkick.com/artists/9888034"
+              href="https://www.songkick.com/artists/8303668"
               data-theme="dark"
               data-track-button="on"
               data-detect-style="true"
