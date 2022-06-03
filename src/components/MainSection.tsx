@@ -10,7 +10,7 @@ const Layout = styled.div`
   overflow: hidden;
   display: flex;
   justify-content: center;
-  background-image: url('/images/landing-background.png');
+  background-image: url('/images/main.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@ const MainSection = () => {
       <BandImgLayout>
         <GatsbyImage
           image={imageData.bandLandingImage.childImageSharp.gatsbyImageData}
-          alt={'Gnarfunkel band image'}
+          alt={'Myles from Home image'}
         />
       </BandImgLayout>
       <SocialIconsWrapper>
@@ -70,14 +70,14 @@ export default MainSection;
 export const fluidImage = graphql`
   fragment fluidImage on File {
     childImageSharp {
-      gatsbyImageData(layout: FULL_WIDTH)
+      gatsbyImageData(layout: FULL_WIDTH, placeholder: TRACED_SVG)
     }
   }
 `;
 
 const getImages = graphql`
   query {
-    bandLandingImage: file(relativePath: { eq: "images/band-landing.png" }) {
+    bandLandingImage: file(relativePath: { eq: "images/title-white.png" }) {
       ...fluidImage
     }
   }
