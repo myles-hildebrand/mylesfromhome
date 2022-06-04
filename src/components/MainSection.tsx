@@ -20,6 +20,7 @@ const Layout = styled.div`
     display: grid;
     align-items: center;
     grid-template-rows: 1fr min-content;
+    background-attachment: scroll;
   }
 `;
 
