@@ -35,12 +35,17 @@ const SocialIconsWrapper = styled.div`
   }
 `;
 
-const BandImgLayout = styled.div`
+const TitleImgLayout = styled.div`
   aspect-ratio: 5/7;
 
-  @media only screen and (max-width: 780px) {
+  @media only screen and (max-width: 500px) {
     width: 100vw;
     max-width: 500px;
+  }
+
+  @media only screen and (max-width: 780px) and (min-width: 500px) {
+    aspect-ratio: unset;
+    
   }
 
   @supports not (aspect-ratio: 5 / 7) {
@@ -53,12 +58,12 @@ const MainSection = () => {
 
   return (
     <Layout>
-      <BandImgLayout>
+      <TitleImgLayout>
         <GatsbyImage
           image={imageData.bandLandingImage.childImageSharp.gatsbyImageData}
           alt={'Myles from Home image'}
         />
-      </BandImgLayout>
+      </TitleImgLayout>
       <SocialIconsWrapper>
         <SocialIcons />
       </SocialIconsWrapper>
