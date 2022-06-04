@@ -82,7 +82,7 @@ const Index = ({ data }: Props) => {
 
       <Content>
         <Section>
-          <SectionTitle>Our Music</SectionTitle>
+          <SectionTitle>My Music</SectionTitle>
           <MusicLayout>
             {/* <MusicIframe
               width="560"
@@ -111,7 +111,7 @@ const Index = ({ data }: Props) => {
           </MusicLayout>
         </Section>
         <Section>
-          <SectionTitle>See Us Live</SectionTitle>
+          <SectionTitle>Upcoming Shows</SectionTitle>
           <SongkickWidget>
             <a
               className="songkick-widget"
@@ -124,7 +124,7 @@ const Index = ({ data }: Props) => {
           </SongkickWidget>
         </Section>
         <Section>
-          <SectionTitle>Follow Us On Instagram</SectionTitle>
+          <SectionTitle>Follow Me On Instagram</SectionTitle>
           <InstagramFeed />
         </Section>
       </Content>
