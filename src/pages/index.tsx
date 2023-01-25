@@ -82,7 +82,7 @@ const Index = ({ data }: Props) => {
 
       <Content>
         <Section>
-          <SectionTitle>My Music</SectionTitle>
+          <SectionTitle>Music</SectionTitle>
           <MusicLayout>
             {/* <MusicIframe
               width="560"
@@ -95,7 +95,7 @@ const Index = ({ data }: Props) => {
             <MusicIframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/YdiPrEt4KyQ"
+              src="https://www.youtube.com/embed/hkszcg3Alc8"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -124,7 +124,7 @@ const Index = ({ data }: Props) => {
           </SongkickWidget>
         </Section>
         <Section>
-          <SectionTitle>Follow Me On Instagram</SectionTitle>
+          <SectionTitle>Follow On Instagram</SectionTitle>
           <InstagramFeed />
         </Section>
       </Content>
