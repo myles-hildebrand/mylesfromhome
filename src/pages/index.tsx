@@ -8,6 +8,8 @@ import SEO from '../components/seo';
 import MainSection from '../components/MainSection';
 import InstagramFeed from '../components/InstagramFeed';
 
+const musicVideoIds = ['hkszcg3Alc8', 'YdiPrEt4KyQ'];
+
 const Section = styled.div`
   display: flex;
   flex-direction: column;
@@ -45,6 +47,8 @@ const MusicIframe = styled.iframe`
 
     &:last-child {
       padding: 0;
+      margin-bottom: 0;
+      background-color: pink;
     }
   }
 `;
@@ -82,7 +86,7 @@ const Index = ({ data }: Props) => {
 
       <Content>
         <Section>
-          <SectionTitle>Music</SectionTitle>
+          <SectionTitle>My Music</SectionTitle>
           <MusicLayout>
             {/* <MusicIframe
               width="560"
@@ -91,7 +95,7 @@ const Index = ({ data }: Props) => {
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-            /> */}
+            /> 
             <MusicIframe
               width="560"
               height="315"
@@ -99,11 +103,21 @@ const Index = ({ data }: Props) => {
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-            />
+            /> */}
+            {musicVideoIds.map(id => (
+              <MusicIframe
+                width="560"
+                height="315"
+                src={`https://www.youtube.com/embed/${id}`}
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            ))}
             <MusicIframe
               src="https://open.spotify.com/embed/artist/4aHc82sUCkKkkn8dnaMktt?utm_source=generator"
               width="560"
-              height="315"
+              height="180"//height="315"
               frameBorder="0"
               allowtransparency="true"
               allow="encrypted-media"
