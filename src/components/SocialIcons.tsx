@@ -4,20 +4,20 @@ import Icon from './Icon';
 
 const socialNetworkData = [
   {
-    url: 'https://www.facebook.com/mylesfromhome',
-    name: 'facebook',
+    url: 'https://open.spotify.com/artist/4aHc82sUCkKkkn8dnaMktt',
+    name: 'spotify',
   },
   {
     url: 'https://www.instagram.com/mylesfromhome/',
     name: 'instagram',
   },
   {
-    url: 'https://open.spotify.com/artist/4aHc82sUCkKkkn8dnaMktt',
-    name: 'spotify',
-  },
-  {
     url: 'https://www.tiktok.com/@mylesfromhome',
     name: 'tiktok',
+  },
+  {
+    url: 'https://www.facebook.com/mylesfromhome',
+    name: 'facebook',
   },
   {
     url: 'https://www.youtube.com/channel/UCBz9N6vLJhpLLzmhhTFX5Ow/playlists',
