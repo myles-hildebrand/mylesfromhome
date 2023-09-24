@@ -8,9 +8,10 @@ import SEO from '../components/seo';
 import MainSection from '../components/MainSection';
 import InstagramFeed from '../components/InstagramFeed';
 
-const musicVideoIds = ['hkszcg3Alc8', //Myles From Home - LIVE at Blue Light Sessions
-                       'rJfJ-NAFWb8', //Gnarfunkel // Myles from Home ~ Full Flower Moon (Official Music Video)
-                       'C_HO2scAQT4'];//CAFÉ RACER ♢ Molly Doesn’t Move Anymore 
+const musicVideoIds = ['xOLALNeZaIQ', //Myles from Home - Nearest Star (Lyric Video)
+                       'hkszcg3Alc8', //Myles From Home - LIVE at Blue Light Sessions
+                       'rJfJ-NAFWb8']; //Gnarfunkel // Myles from Home ~ Full Flower Moon (Official Music Video)
+                       //'C_HO2scAQT4'];//CAFÉ RACER ♢ Molly Doesn’t Move Anymore 
 
 const Section = styled.div`
   display: flex;

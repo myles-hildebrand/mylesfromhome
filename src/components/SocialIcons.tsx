@@ -20,7 +20,7 @@ const socialNetworkData = [
     name: 'facebook',
   },
   {
-    url: 'https://www.youtube.com/channel/UCBz9N6vLJhpLLzmhhTFX5Ow/playlists',
+    url: 'https://www.youtube.com/@mylesfromhomemusic',
     name: 'youtube',
   },
 ];
