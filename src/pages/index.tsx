@@ -9,10 +9,11 @@ import MainSection from '../components/MainSection';
 import InstagramFeed from '../components/InstagramFeed';
 
 const musicVideoIds = ['YdGEDSZ2WM4', //Myles from Home - Life in the Sun (Live in Vancouver)
-                       'vsT4zibcbCg', //Myles from Home - Don't Get on the Train (Lyric Video)
-                       'xOLALNeZaIQ'];//Myles from Home - Nearest Star (Lyric Video)
+                       'hkszcg3Alc8']; //Myles From Home - LIVE at Blue Light Sessions
+                       //'vsT4zibcbCg', //Myles from Home - Don't Get on the Train (Lyric Video)
+                       //'xOLALNeZaIQ'];//Myles from Home - Nearest Star (Lyric Video)
                        
-                       //'hkszcg3Alc8']; //Myles From Home - LIVE at Blue Light Sessions
+                       
                        //'rJfJ-NAFWb8']; //Gnarfunkel // Myles from Home ~ Full Flower Moon (Official Music Video)
                        //'C_HO2scAQT4'];//CAFÉ RACER ♢ Molly Doesn’t Move Anymore 
 
@@ -92,7 +93,7 @@ const Index = ({ data }: Props) => {
 
       <Content>
         <Section>
-          <SectionTitle>My Music</SectionTitle>
+          <SectionTitle>Music</SectionTitle>
           <MusicLayout>
             {/* <MusicIframe
               width="560"

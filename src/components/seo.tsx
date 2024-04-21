@@ -25,7 +25,7 @@ const SEO = ({ title }: Props) => {
       {/* <!-- Search Engine --> */}
       <meta
         property="description"
-        content="Myles from Home is a singer-songwriter who sings, plays guitar and harmonica and enjoys spending time outdoors naked."
+        content="Myles from Home sounds like Indie Folk going on a successful first date with Funk Jazz."
       />
       <meta property="image" content="https://www.mylesfromhome.com/images/main-fb.jpg" />
 
@@ -33,7 +33,7 @@ const SEO = ({ title }: Props) => {
       <meta itemProp="name" content="Myles from Home" />
       <meta
         itemProp="description"
-        content="Myles from Home is a singer-songwriter who sings, plays guitar and harmonica and enjoys spending time outdoors naked."
+        content="Myles from Home sounds like Indie Folk going on a successful first date with Funk Jazz."
       />
       <meta itemProp="image" content="https://www.mylesfromhome.com/images/main-fb.jpg" />
 
@@ -42,7 +42,7 @@ const SEO = ({ title }: Props) => {
       <meta property="twitter:title" content="Myles from Home" />
       <meta
         property="twitter:description"
-        content="Myles from Home is a singer-songwriter who sings, plays guitar and harmonica and enjoys spending time outdoors naked."
+        content="Myles from Home sounds like Indie Folk going on a successful first date with Funk Jazz."
       />
       {/* Meta tag used to link to a twitter account*/}
       {/*<meta property="twitter:site" content="@mylesfromhome" />*/}
@@ -52,7 +52,7 @@ const SEO = ({ title }: Props) => {
       <meta property="og:title" content="Myles from Home" />
       <meta
         property="og:description"
-        content="Myles from Home is a singer-songwriter who sings, plays guitar and harmonica and enjoys spending time outdoors naked."
+        content="Myles from Home sounds like Indie Folk going on a successful first date with Funk Jazz."
       />
       <meta property="og:image" content="https://www.mylesfromhome.com/images/main-fb.jpg" />
       <meta
