@@ -8,8 +8,9 @@ import SEO from '../components/seo';
 import MainSection from '../components/MainSection';
 import InstagramFeed from '../components/InstagramFeed';
 
-const musicVideoIds = ['YdGEDSZ2WM4', //Myles from Home - Life in the Sun (Live in Vancouver)
+const musicVideoIds = ['lJKyf1b6nN8', //Myles from Home - Life in the Sun (Official Music Video)
                        'hkszcg3Alc8']; //Myles From Home - LIVE at Blue Light Sessions
+                       //'YdGEDSZ2WM4', //Myles from Home - Life in the Sun (Live in Vancouver)  
                        //'vsT4zibcbCg', //Myles from Home - Don't Get on the Train (Lyric Video)
                        //'xOLALNeZaIQ'];//Myles from Home - Nearest Star (Lyric Video)
                        
