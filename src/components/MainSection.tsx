@@ -83,7 +83,7 @@ export const fluidImage = graphql`
 
 const getImages = graphql`
   query {
-    bandLandingImage: file(relativePath: { eq: "images/title-white.png" }) {
+    bandLandingImage: file(relativePath: { eq: "images/title-transparent.png" }) {
       ...fluidImage
     }
   }
