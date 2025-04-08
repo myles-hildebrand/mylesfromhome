@@ -8,7 +8,7 @@ import SEO from '../components/seo';
 import MainSection from '../components/MainSection';
 import InstagramFeed from '../components/InstagramFeed';
 
-const musicVideoIds = ['shorts/tZJgmdaeg8k', //Almost Everything - fire short
+const musicVideoIds = ['tZJgmdaeg8k', //Almost Everything - fire short
                        'K-CUs8lI8f8', //You’re Gonna Go Far - Live at Fox Cabaret
                        'lJKyf1b6nN8']; //Myles from Home - Life in the Sun (Official Music Video)
                        //'hkszcg3Alc8', //Myles From Home - LIVE at Blue Light Sessions
