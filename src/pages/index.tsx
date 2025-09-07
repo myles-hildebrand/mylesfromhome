@@ -8,14 +8,14 @@ import SEO from '../components/seo';
 import MainSection from '../components/MainSection';
 import InstagramFeed from '../components/InstagramFeed';
 
-const musicVideoIds = ['tZJgmdaeg8k', //Almost Everything - fire short
-                       'K-CUs8lI8f8', //You’re Gonna Go Far - Live at Fox Cabaret
-                       'lJKyf1b6nN8']; //Myles from Home - Life in the Sun (Official Music Video)
+const musicVideoIds = ['F7ozT8baZ5o', //I Remember - Go Kart short
+                       'tZJgmdaeg8k', //Almost Everything - fire short
+                       'K-CUs8lI8f8']; //You’re Gonna Go Far - Live at Fox Cabaret
+                       //'lJKyf1b6nN8', //Myles from Home - Life in the Sun (Official Music Video)
                        //'hkszcg3Alc8', //Myles From Home - LIVE at Blue Light Sessions
                        //'YdGEDSZ2WM4', //Myles from Home - Life in the Sun (Live in Vancouver)  
                        //'vsT4zibcbCg', //Myles from Home - Don't Get on the Train (Lyric Video)
                        //'xOLALNeZaIQ'];//Myles from Home - Nearest Star (Lyric Video)
-                       
                        
                        //'rJfJ-NAFWb8']; //Gnarfunkel // Myles from Home ~ Full Flower Moon (Official Music Video)
                        //'C_HO2scAQT4'];//CAFÉ RACER ♢ Molly Doesn’t Move Anymore 
